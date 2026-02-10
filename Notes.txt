@@ -1,0 +1,49 @@
+Pyenv
+
+Pyenv Install:
+https://github.com/pyenv/pyenv?tab=readme-ov-file#installation
+
+Check Versão do pyenv
+pyenv --versions
+
+Checkar versões
+pyenv versions 
+
+Install python version
+pyenv install x.xx.x
+
+Config global version
+pyenv global x.xx.x
+
+Config local version
+pyenv local x.xx.x
+
+---------------------------------------------------------------------------
+
+Ambiente virtual
+
+Criando o ambiente virtual
+python -m venv .venv
+
+Entrando no ambiente virtual 
+(wsl)       source .venv/bin/activate
+(windows)   source .venv/Scripts/activate  
+
+Sair do venv
+deactivate
+
+Verificar se estou no ambiente virtual
+which python
+
+---------------------------------------------------------------------------
+
+Poety
+
+Criando um novo projecto
+poetry new projecto_xxx
+
+Versão python com o poetry (cria o ambiente virtual)
+poetry env use x.xx.x
+
+Instalar dependencia
+poetry add lib_x
