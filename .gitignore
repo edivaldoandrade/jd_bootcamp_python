@@ -1,3 +1,19 @@
-#
+# Python virtual environment
 .venv/
+
+# Visual Studio Code settings
+.vscode/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# History files
+.history/
+
+# Data files
 files/
+
